@@ -124,3 +124,40 @@ nothing to commit, working tree clean
 
 ![스크린샷 2021-02-04 오후 2.20.35](/Users/hyungwoo/Desktop/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202021-02-04%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.20.35.png)
 
+# github에 바로 올리기!
+
+```bash
+% git remote add origin https://github.com/HyungWoo7232/first.git
+% git push origin master
+Username for 'https://github.com': HyungWoo7232
+Password for 'https://HyungWoo7232@github.com': 
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 697 bytes | 697.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/HyungWoo7232/first.git
+ * [new branch]      master -> master
+```
+
+다음 줄에 username : HyungWoo7232 입력하고
+
+password에는 열쇠그림이라 안보이지만 입력하여 엔터!
+
+
+
+```bash
+error : src refspec master does not match any
+error : failed to push some refs to
+```
+
+* commit이 없을 것
+
+```bash
+% git add .
+% git commit -m '_'
+% git push origin master
+```
+
