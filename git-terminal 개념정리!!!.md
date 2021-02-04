@@ -13,7 +13,9 @@ Initialized empty Git repository in /Users/hyungwoo/Desktop/md/.git/
 
 
 
-## 작업흐름
+## 작업흐름 
+
+## (cd 해당폴더 -> add 파일 -> commit 파일 -> push )
 
 ### 1. `add`
 
